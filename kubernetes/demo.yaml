@@ -15,9 +15,9 @@ spec:
         app: demo
     spec:
       containers:
-      - image: cloudnatived/demo:hello
+      - image: crjjason/dockerdemo
         imagePullPolicy: IfNotPresent
         name: demo
         ports:
-        - containerPort: 8888
+        - containerPort: 8080
           protocol: TCP

@@ -6,9 +6,9 @@ metadata:
     app: demo
 spec:
   ports:
-  - port: 9999
+  - port: 8080
     protocol: TCP
-    targetPort: 8888
+    targetPort: 8080
   selector:
     app: demo
-  type: ClusterIP
+  type: LoadBalancer
